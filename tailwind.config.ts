@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,34 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom Domestic Exports colors
+				tan: {
+					DEFAULT: '#b4987e',
+					50: '#faf8f6',
+					100: '#f5f1ed',
+					200: '#ebe3da',
+					300: '#ddd0c1',
+					400: '#cab5a0',
+					500: '#b4987e',
+					600: '#a08368',
+					700: '#866d57',
+					800: '#6e5a4a',
+					900: '#584a3f'
+				},
+				cream: '#f9f4ef',
+				charcoal: '#1e1e1e'
+			},
+			fontFamily: {
+				playfair: ['Playfair Display', 'serif'],
+				inter: ['Inter', 'sans-serif'],
+			},
+			fontSize: {
+				'display': ['36px', { lineHeight: '1.5' }],
+				'heading': ['28px', { lineHeight: '1.5' }],
+				'subheading': ['20px', { lineHeight: '1.5' }],
+				'body': ['16px', { lineHeight: '1.5' }],
+				'caption': ['14px', { lineHeight: '1.5' }],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +112,33 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(20px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'scale-in': {
+					'0%': {
+						transform: 'scale(0.95)',
+						opacity: '0'
+					},
+					'100%': {
+						transform: 'scale(1)',
+						opacity: '1'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.6s ease-out',
+				'scale-in': 'scale-in 0.3s ease-out'
 			}
 		}
 	},
