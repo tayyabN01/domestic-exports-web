@@ -6,21 +6,21 @@ const FeaturedCategories = () => {
   const categories = [
     {
       title: 'Apparel',
-      image: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/assets/images/page12_img3.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ3ZWJzaXRlL2Fzc2V0cy9pbWFnZXMvcGFnZTEyX2ltZzMucG5nIiwiaWF0IjoxNzM2MDE4NDg3LCJleHAiOjE3Njc1NTQ0ODd9.XqEgP6rIg8p_Pr7JqVJsUGxKRCBWuPdVafKOEEqJAuI',
+      image: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/freepik__the-style-is-candid-image-photography-with-natural__38973.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL2ZyZWVwaWtfX3RoZS1zdHlsZS1pcy1jYW5kaWQtaW1hZ2UtcGhvdG9ncmFwaHktd2l0aC1uYXR1cmFsX18zODk3My5wbmciLCJpYXQiOjE3NTE4MTA4NzQsImV4cCI6MTc4MzM0Njg3NH0.qplMXBg_lAyJ8gVyUjf82wxBVlVXmbdOpeLUe4r3wn0',
       teaser: 'Explore premium leather jackets, coats, vests, and pants.',
       expanded: 'Explore premium leather jackets, coats, vests, pants, skirts, and dresses for men and women. Handcrafted using LWG-certified sheepskin and cowhide with full OEM customization options.',
       catalogUrl: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/D.E%20-%20APPAREL%20M&F%20CATALOGUE%20_24.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL0QuRSAtIEFQUEFSRUwgTSZGIENBVEFMT0dVRSBfMjQucGRmIiwiaWF0IjoxNzUxNzU1MzgxLCJleHAiOjE3ODMyOTEzODF9.UujzxMMxkXlm5uX3P71-zPHjh-t6KoIp0GtQ_at3raE'
     },
     {
       title: 'Bags',
-      image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80',
+      image: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/freepik__the-style-is-candid-image-photography-with-natural__27579.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL2ZyZWVwaWtfX3RoZS1zdHlsZS1pcy1jYW5kaWQtaW1hZ2UtcGhvdG9ncmFwaHktd2l0aC1uYXR1cmFsX18yNzU3OS5wbmciLCJpYXQiOjE3NTE4MTA4MDMsImV4cCI6MTc4MzM0NjgwM30.AeyWWroJaXNPVzA6Dh8LlIGvv7PjEIImNXhQm6iRDk8',
       teaser: 'Durable and stylish leather bags for travel and daily use.',
       expanded: 'Durable, stylish leather bags built for travel and everyday use. Choose from duffels, suit carriers, and pouches — all customizable with your brand\'s design and finish.',
       catalogUrl: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/D.E%20-%20BAGS%20CATALOGUE%20_24.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL0QuRSAtIEJBR1MgQ0FUQUxPR1VFIF8yNC5wZGYiLCJpYXQiOjE3NTE3NTUzOTksImV4cCI6MTc4MzI5MTM5OX0.GXiH820Gzi7VMaj50jjtqMHUVPs8ZtXKjW15ll3h1iE'
     },
     {
       title: 'Wallets',
-      image: 'https://images.unsplash.com/photo-1627123339732-4d4c2e0c3ab2?auto=format&fit=crop&w=800&q=80',
+      image: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/wallets.jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL3dhbGxldHMuanBlZyIsImlhdCI6MTc1MTgxMTY2MiwiZXhwIjoxNzgzMzQ3NjYyfQ.OqZil-4x6Rl3WTfqClEsRDJUIMyZV0FOknr2JqOv4Eo',
       teaser: 'Refined leather wallets for both men and women.',
       expanded: 'Elegant men\'s and women\'s leather wallets — bi-folds, tri-folds, and card holders. Premium materials and full branding options for private label clients.',
       catalogUrl: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/D.E%20-%20WALLETS%20CATALOGUE%20_24.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL0QuRSAtIFdBTExFVFMgQ0FUQUxPR1VFIF8yNC5wZGYiLCJpYXQiOjE3NTE3NTU0MzgsImV4cCI6MTc4MzI5MTQzOH0.vAsw5qFtJkYPkDT6mF1AHcYGwAa9mFRvYxo-vacqLhs'
@@ -34,14 +34,14 @@ const FeaturedCategories = () => {
     },
     {
       title: 'Accessories',
-      image: 'https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=800&q=80',
+      image: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/A%20curated%20set%20of%20luxury%20leather%20desk%20accessories%20leather%20keychains,%20card%20holders,%20notepads,%20pen%20tra%20(1).jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL0EgY3VyYXRlZCBzZXQgb2YgbHV4dXJ5IGxlYXRoZXIgZGVzayBhY2Nlc3NvcmllcyBsZWF0aGVyIGtleWNoYWlucywgY2FyZCBob2xkZXJzLCBub3RlcGFkcywgcGVuIHRyYSAoMSkuanBlZyIsImlhdCI6MTc1MTgxMDg5MiwiZXhwIjoxNzgzMzQ2ODkyfQ.-xEaF0IDFBn0KMc_9HqGyeuu2ptyVcH575dn-atP1B8',
       teaser: 'Premium lifestyle leather accessories for gifting & branding.',
       expanded: 'Complete your collection with leather keychains, desk organizers, laptop sleeves, and more. Ideal for gifting, merchandising, or luxury lifestyle brands.',
       catalogUrl: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/D.E%20-%20ACCESSORIES%20CATALOGUE%20_24.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL0QuRSAtIEFDQ0VTU09SSUVTIENBVEFMT0dVRSBfMjQucGRmIiwiaWF0IjoxNzUxNzU1MzQ5LCJleHAiOjE3ODMyOTEzNDl9.8lXDglobqKSuXykLCKqXQzSZL0qzJSmJ_nPmt7BSibg'
     },
     {
       title: 'Belts',
-      image: 'https://images.unsplash.com/photo-1594223274512-ad4803739b7c?auto=format&fit=crop&w=800&q=80',
+      image: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/belts.jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL2JlbHRzLmpwZWciLCJpYXQiOjE3NTE4MTE1MzIsImV4cCI6MTc4MzM0NzUzMn0.27tf7P8fAqlkWkgTwzlkEWC_Q8_hbDHsQDCzpz02Ha8',
       teaser: 'Versatile leather belts crafted for every wardrobe.',
       expanded: 'Classic and modern leather belts for men and women. Made from full-grain hides with custom buckles, stitching, and branding.',
       catalogUrl: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/D.E%20-%20BELTS%20CATALOGUE%20_24.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL0QuRSAtIEJFTFRTIENBVEFMT0dVRSBfMjQucGRmIiwiaWF0IjoxNzUxNzU1NDExLCJleHAiOjE3ODMyOTE0MTF9.jdb6_UW4s_AknTbm0JqiVwu1IsCYRfbuRCGYgq751c0'
