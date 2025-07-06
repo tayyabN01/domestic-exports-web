@@ -72,8 +72,8 @@ const Footer = () => {
             <div className="space-y-3">
               <p className="text-gray-600">
                 <strong>Email:</strong>{' '}
-                <a href="mailto:sales@domesticgoc.com" className="hover:text-tan transition-colors duration-200">
-                  sales@domesticgoc.com
+                <a href="mailto:sales@domesticexports.com" className="hover:text-tan transition-colors duration-200">
+                  sales@domesticexports.com
                 </a>
               </p>
               <p className="text-gray-600">
@@ -115,7 +115,7 @@ const Footer = () => {
               DOMESTIC EXPORTS
             </div>
             <p className="text-gray-600 text-center md:text-right">
-              © 2024 Domestic Exports. All rights reserved.
+              © 2025 Domestic Exports. All rights reserved.
               <br />
               Crafted with pride in Sialkot, Pakistan
             </p>
