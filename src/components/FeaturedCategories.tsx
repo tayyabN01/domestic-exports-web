@@ -5,7 +5,7 @@ import { ExternalLink } from 'lucide-react';
 const FeaturedCategories = () => {
   const categories = [
     {
-      title: 'Apparel',
+      title: 'Apparel 11',
       image: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/freepik__the-style-is-candid-image-photography-with-natural__38973.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL2ZyZWVwaWtfX3RoZS1zdHlsZS1pcy1jYW5kaWQtaW1hZ2UtcGhvdG9ncmFwaHktd2l0aC1uYXR1cmFsX18zODk3My5wbmciLCJpYXQiOjE3NTE4MTA4NzQsImV4cCI6MTc4MzM0Njg3NH0.qplMXBg_lAyJ8gVyUjf82wxBVlVXmbdOpeLUe4r3wn0',
       teaser: 'Explore premium leather jackets, coats, vests, and pants.',
       expanded: 'Explore premium leather jackets, coats, vests, pants, skirts, and dresses for men and women. Handcrafted using LWG-certified sheepskin and cowhide with full OEM customization options.',
@@ -37,7 +37,7 @@ const FeaturedCategories = () => {
       image: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/A%20curated%20set%20of%20luxury%20leather%20desk%20accessories%20leather%20keychains,%20card%20holders,%20notepads,%20pen%20tra%20(1).jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL0EgY3VyYXRlZCBzZXQgb2YgbHV4dXJ5IGxlYXRoZXIgZGVzayBhY2Nlc3NvcmllcyBsZWF0aGVyIGtleWNoYWlucywgY2FyZCBob2xkZXJzLCBub3RlcGFkcywgcGVuIHRyYSAoMSkuanBlZyIsImlhdCI6MTc1MTgxMDg5MiwiZXhwIjoxNzgzMzQ2ODkyfQ.-xEaF0IDFBn0KMc_9HqGyeuu2ptyVcH575dn-atP1B8',
       teaser: 'Premium lifestyle leather accessories for gifting & branding.',
       expanded: 'Complete your collection with leather keychains, desk organizers, laptop sleeves, and more. Ideal for gifting, merchandising, or luxury lifestyle brands.',
-      catalogUrl: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/D.E%20-%20ACCESSORIES%20CATALOGUE%20_24.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL0QuRSAtIEFDQ0VTU09SSUVTIENBVEFMT0dVRSBfMjQucGRmIiwiaWF0IjoxNzUxNzU1MzQ5LCJleHAiOjE3ODMyOTEzNDl9.8lXDglobqKSuXykLCKqXQzSZL0qzJSmJ_nPmt7BSibg'
+      catalogUrl: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/D.E%20-%20ACCESSORIES%20CATALOGUE%20_25.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL0QuRSAtIEFDQ0VTU09SSUVTIENBVEFMT0dVRSBfMjUucGRmIiwiaWF0IjoxNzUxODE2MTk2LCJleHAiOjE3ODMzNTIxOTZ9.sbxeqNR0ZkX2gO8EXIlpXipm322VhUA-47wmNDFix5Uhhttps://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/D.E%20-%20ACCESSORIES%20CATALOGUE%20_25.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL0QuRSAtIEFDQ0VTU09SSUVTIENBVEFMT0dVRSBfMjUucGRmIiwiaWF0IjoxNzUxODE2MTk2LCJleHAiOjE3ODMzNTIxOTZ9.sbxeqNR0ZkX2gO8EXIlpXipm322VhUA-47wmNDFix5Uttps://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/D.E%20-%20ACCESSORIES%20CATALOGUE%20_24.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL0QuRSAtIEFDQ0VTU09SSUVTIENBVEFMT0dVRSBfMjQucGRmIiwiaWF0IjoxNzUxNzU1MzQ5LCJleHAiOjE3ODMyOTEzNDl9.8lXDglobqKSuXykLCKqXQzSZL0qzJSmJ_nPmt7BSibg'
     },
     {
       title: 'Belts',
