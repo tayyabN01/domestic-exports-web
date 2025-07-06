@@ -1,25 +1,27 @@
 
+import { Hammer, Shield, Leaf, Globe } from 'lucide-react';
+
 const WhyChooseUs = () => {
   const features = [
     {
       title: 'Handcrafted',
       description: 'Every piece is meticulously crafted by skilled artisans',
-      icon: '🔨'
+      icon: Hammer
     },
     {
       title: 'Full-Grain Leather',
       description: 'Only the finest quality leather for lasting durability',
-      icon: '🐄'
+      icon: Shield
     },
     {
       title: 'Eco-Friendly Tanning',
       description: 'LWG-certified sustainable leather processing',
-      icon: '🌿'
+      icon: Leaf
     },
     {
       title: 'Global Shipping',
       description: 'Worldwide delivery with reliable logistics partners',
-      icon: '🌍'
+      icon: Globe
     }
   ];
 
@@ -36,23 +38,26 @@ const WhyChooseUs = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {features.map((feature, index) => (
-            <div 
-              key={feature.title}
-              className="text-center group hover:transform hover:scale-105 transition-all duration-300 animate-fade-in"
-              style={{ animationDelay: `${index * 0.2}s` }}
-            >
-              <div className="w-20 h-20 mx-auto mb-6 bg-white rounded-full flex items-center justify-center text-4xl shadow-lg group-hover:shadow-xl transition-shadow duration-300">
-                {feature.icon}
+          {features.map((feature, index) => {
+            const IconComponent = feature.icon;
+            return (
+              <div 
+                key={feature.title}
+                className="text-center group hover:transform hover:scale-105 transition-all duration-300 animate-fade-in"
+                style={{ animationDelay: `${index * 0.2}s` }}
+              >
+                <div className="w-20 h-20 mx-auto mb-6 bg-white rounded-full flex items-center justify-center shadow-lg group-hover:shadow-xl transition-shadow duration-300">
+                  <IconComponent className="w-8 h-8 text-tan group-hover:text-charcoal transition-colors duration-300" />
+                </div>
+                <h3 className="font-playfair text-2xl font-bold text-charcoal mb-4 group-hover:text-tan transition-colors duration-300">
+                  {feature.title}
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  {feature.description}
+                </p>
               </div>
-              <h3 className="font-playfair text-2xl font-bold text-charcoal mb-4 group-hover:text-tan transition-colors duration-300">
-                {feature.title}
-              </h3>
-              <p className="text-gray-600 leading-relaxed">
-                {feature.description}
-              </p>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>
