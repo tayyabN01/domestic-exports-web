@@ -203,7 +203,7 @@ const Contact = () => {
                     </h3>
                     <p className="text-gray-600">
                       <a 
-                        href="mailto:sales@domesticgoc.com" 
+                        href="mailto:sales@domesticexports.com" 
                         className="hover:text-tan transition-colors duration-200"
                       >
                         sales@domesticexports.com
