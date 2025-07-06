@@ -27,7 +27,7 @@ const FeaturedCategories = () => {
     },
     {
       title: 'Gloves',
-      image: 'https://images.unsplash.com/photo-1544966503-7cc5ac882d5a?auto=format&fit=crop&w=800&q=80',
+      image: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/freepik__the-style-is-candid-image-photography-with-natural__60150.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL2ZyZWVwaWtfX3RoZS1zdHlsZS1pcy1jYW5kaWQtaW1hZ2UtcGhvdG9ncmFwaHktd2l0aC1uYXR1cmFsX182MDE1MC5wbmciLCJpYXQiOjE3NTE4MTI0MDYsImV4cCI6MTc4MzM0ODQwNn0.BbItf23Yd3yQ84YYN00kTHwFO9BKbeiTbXSMnSyqtTE',
       teaser: 'Luxury leather gloves for comfort and style.',
       expanded: 'Soft, warm, and stylish leather gloves for men and women. Ideal for winterwear, driving, or fashion brands. Fully customizable in material, lining, and fit.',
       catalogUrl: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/D.E%20-%20GLOVES%20CATALOGUE%20_24.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL0QuRSAtIEdMT1ZFUyBDQVRBTE9HVUUgXzI0LnBkZiIsImlhdCI6MTc1MTc1NTQyMywiZXhwIjoxNzgzMjkxNDIzfQ.NAdh_zVBSop99_a3GB7zAWrgyfh2I2pNRZmzFqPFc4s'
