@@ -206,7 +206,7 @@ const Contact = () => {
                         href="mailto:sales@domesticgoc.com" 
                         className="hover:text-tan transition-colors duration-200"
                       >
-                        sales@domesticgoc.com
+                        sales@domesticexports.com
                       </a>
                     </p>
                     <p className="text-sm text-gray-500 mt-1">
