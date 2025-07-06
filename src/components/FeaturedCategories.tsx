@@ -48,9 +48,7 @@ const FeaturedCategories = () => {
     }
   ];
 
-  const openMainCatalog = () => {
-    window.open('https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/DOMESTIC%20EXPORTS%20-%20PRODUCT%20CATALOGUE%20\'24%20(Small%20File)_compressed.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL0RPTUVTVElDIEVYUE9SVFMgLSBQUk9EVUNUIENBVEFMT0dVRSAnMjQgKFNtYWxsIEZpbGUpX2NvbXByZXNzZWQucGRmIiwiaWF0IjoxNzUxNzU0MDc3LCJleHAiOjIwNjcxMTQwNzd9.9fQd4zSPiOjYFs69wTaU6BiTdJ0M364_T4LNNECU_2w', '_blank');
-  };
+  
 
   return (
     <section id="featured-categories" className="py-20 bg-white">
@@ -70,16 +68,6 @@ const FeaturedCategories = () => {
               <CategoryCard {...category} />
             </div>
           ))}
-        </div>
-
-        <div className="text-center">
-          <Button
-            onClick={openMainCatalog}
-            className="bg-charcoal hover:bg-gray-800 text-white px-8 py-4 text-lg rounded-full transition-all duration-300 hover:scale-105 flex items-center justify-center space-x-2 mx-auto"
-          >
-            <span>Preview Complete Catalogue</span>
-            <ExternalLink className="w-5 h-5" />
-          </Button>
         </div>
       </div>
     </section>
