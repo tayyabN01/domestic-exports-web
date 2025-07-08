@@ -2,6 +2,7 @@
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import FeaturedCategories from '@/components/FeaturedCategories';
+import MaterialSwatches from '@/components/MaterialSwatches';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import ContactForm from '@/components/ContactForm';
 import Newsletter from '@/components/Newsletter';
@@ -14,6 +15,7 @@ const Index = () => {
       <Header />
       <Hero />
       <FeaturedCategories />
+      <MaterialSwatches />
       <WhyChooseUs />
       <ContactForm />
       <Newsletter />
