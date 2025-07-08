@@ -30,6 +30,9 @@ const Header = () => {
             <Link to="/about" className="text-charcoal hover:text-tan transition-colors duration-200">
               About Us
             </Link>
+            <Link to="/blog" className="text-charcoal hover:text-tan transition-colors duration-200">
+              Blog
+            </Link>
             <Link to="/contact" className="text-charcoal hover:text-tan transition-colors duration-200">
               Contact
             </Link>
@@ -75,6 +78,13 @@ const Header = () => {
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 About Us
+              </Link>
+              <Link 
+                to="/blog" 
+                className="text-charcoal hover:text-tan transition-colors duration-200"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Blog
               </Link>
               <Link 
                 to="/contact" 
