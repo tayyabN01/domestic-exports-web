@@ -12,7 +12,7 @@ const Hero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/assets/images/page1_img1.jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL2Fzc2V0cy9pbWFnZXMvcGFnZTFfaW1nMS5qcGVnIiwiaWF0IjoxNzUxNzUzNDQ5LCJleHAiOjIwNjcxMTM0NDl9.imwgWicF9w0pP39sF-r10KFjaEOGTKBkUub2g_0bl1Q')"
+          backgroundImage: "url('https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/page1_img1.jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL3BhZ2UxX2ltZzEuanBlZyIsImlhdCI6MTc1MTk5ODgzMiwiZXhwIjoxNzgzNTM0ODMyfQ.OgiUYfXKYymWwXBRotXBiU5DIVL1z0w7N1O6g2SPIj0')"
         }}
       />
       
