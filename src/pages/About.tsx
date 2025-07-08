@@ -68,25 +68,25 @@ const About = () => {
                 title: 'Selection',
                 description: 'Hand-picking premium hides from LWG-certified tanneries',
                 icon: '🎯',
-                image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=400&q=80'
+                image: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/Selection.jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL1NlbGVjdGlvbi5qcGVnIiwiaWF0IjoxNzUyMDAwODU4LCJleHAiOjE3ODM1MzY4NTh9.wKGkVy4bUndSuib5zwi2X9FQrW5xW0wIH13j6waNO0M'
               },
               {
                 title: 'Crafting',
                 description: 'Master artisans shape each piece with precision tools',
                 icon: '✂️',
-                image: 'https://images.unsplash.com/photo-1586105251161-d12f4a5d1e2e?auto=format&fit=crop&w=400&q=80'
+                image: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/Crafting%20(1).jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL0NyYWZ0aW5nICgxKS5qcGVnIiwiaWF0IjoxNzUyMDAxMDk5LCJleHAiOjE3ODM1MzcwOTl9.gWJNvHp4NK6BnWyD6tk_NLw763Dt02rGepM5oZKJ8qA'
               },
               {
                 title: 'Stitching',
                 description: 'Reinforced seams using industrial-grade threads',
                 icon: '🧵',
-                image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=400&q=80'
+                image: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/Crafting.jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL0NyYWZ0aW5nLmpwZWciLCJpYXQiOjE3NTIwMDExNDgsImV4cCI6MTc4MzUzNzE0OH0.7X5_zGuDUJ4IrpuNUR26kC5VdYz4J1l9dPMHAOQEqRs'
               },
               {
                 title: 'Quality Control',
                 description: 'Rigorous inspection ensures perfection in every detail',
                 icon: '✅',
-                image: 'https://images.unsplash.com/photo-1551698618-1dfe5d97d256?auto=format&fit=crop&w=400&q=80'
+                image: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/Quality.jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL1F1YWxpdHkuanBlZyIsImlhdCI6MTc1MjAwMzQ2OSwiZXhwIjoxNzgzNTM5NDY5fQ.SoMdoboE61cw2PeVA6ScrgaNMQfSZ88Zgx-GBmCHYAk'
               }
             ].map((step, index) => (
               <div 
