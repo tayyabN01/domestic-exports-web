@@ -14,7 +14,7 @@ const MaterialSwatches = () => {
       name: 'Full-Grain Leather',
       description: 'Natural surface, visible grain, ages with patina',
       tags: ['Top-grade', 'Durable', 'Premium feel'],
-      image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=400&q=80'
+      image: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/Full%20Grain.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL0Z1bGwgR3JhaW4ucG5nIiwiaWF0IjoxNzUyMDA2NzkxLCJleHAiOjE3ODM1NDI3OTF9.hbLN_gbFrcFxsOY13cNfFosssLjVM_Oxzvy7jzWzTOI'
     },
     {
       name: 'Top-Grain Leather',
