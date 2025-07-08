@@ -232,7 +232,7 @@ const Contact = () => {
                       </a>
                     </p>
                     <p className="text-sm text-gray-500 mt-1">
-                      Monday - Friday, 9 AM - 6 PM PKT
+                      24/7
                     </p>
                   </div>
                 </div>
