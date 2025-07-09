@@ -1,7 +1,7 @@
-
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import FeaturedCategories from '@/components/FeaturedCategories';
+import LeatherAnalysisCharts from '@/components/LeatherAnalysisCharts';
 // import MaterialSwatches from '@/components/MaterialSwatches';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import ContactForm from '@/components/ContactForm';
@@ -15,6 +15,7 @@ const Index = () => {
       <Header />
       <Hero />
       <FeaturedCategories />
+      <LeatherAnalysisCharts />
       {/* <MaterialSwatches /> */}
       <WhyChooseUs />
       <ContactForm />
