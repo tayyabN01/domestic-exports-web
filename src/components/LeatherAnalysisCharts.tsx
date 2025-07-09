@@ -4,16 +4,16 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 const LeatherAnalysisCharts = () => {
   // Color palette for different qualities
   const colors = {
-    durability: '#866d57', // tan-700
-    appearance: '#b4987e', // tan-500
-    aging: '#cab5a0', // tan-400
-    softness: '#ddd0c1', // tan-300
-    affordability: '#a08368', // tan-600
-    luxury: '#6e5a4a', // tan-800
-    ecoFriendly: '#4ade80', // green-400
-    colorRichness: '#3b82f6', // blue-500
-    waterResistance: '#1e40af', // blue-700
-    speed: '#dc2626' // red-600
+    durability: '#666666', // dark gray
+    appearance: '#999999', // medium gray
+    aging: '#cccccc', // light gray
+    softness: '#f2f2f2', // soft white
+    affordability: '#808080', // balanced gray
+    luxury: '#333333', // deep graphite
+    ecoFriendly: '#22c55e', // vibrant green
+    colorRichness: '#3b82f6', // strong blue
+    waterResistance: '#1e40af', // deep blue
+    speed: '#dc2626' // sharp red
   };
 
   const leatherTypes = [
