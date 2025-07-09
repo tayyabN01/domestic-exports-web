@@ -2,18 +2,18 @@ import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, Legend } from 'recha
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const LeatherAnalysisCharts = () => {
-  // Color palette for different qualities
+  // Color palette using brand tan colors
   const colors = {
-    durability: '#666666', // dark gray
-    appearance: '#999999', // medium gray
-    aging: '#cccccc', // light gray
-    softness: '#f2f2f2', // soft white
-    affordability: '#808080', // balanced gray
-    luxury: '#333333', // deep graphite
-    ecoFriendly: '#22c55e', // vibrant green
-    colorRichness: '#3b82f6', // strong blue
-    waterResistance: '#1e40af', // deep blue
-    speed: '#dc2626' // sharp red
+    durability: '#6e5a4a', // tan-800 - darkest for strength
+    appearance: '#b4987e', // tan-500 - main brand color
+    aging: '#866d57', // tan-700 - mature aged color
+    softness: '#f5f1ed', // tan-100 - lightest for softness
+    affordability: '#cab5a0', // tan-400 - mid-range
+    luxury: '#6e5a4a', // tan-800 - dark for luxury
+    ecoFriendly: '#a08368', // tan-600 - natural earth tone
+    colorRichness: '#ddd0c1', // tan-300 - rich but light
+    waterResistance: '#866d57', // tan-700 - robust tone
+    speed: '#a08368' // tan-600 - efficient tone
   };
 
   const leatherTypes = [
