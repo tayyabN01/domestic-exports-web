@@ -227,7 +227,7 @@ const BlogPost = () => {
           </div>
 
           <p className="text-foreground leading-relaxed mb-8">
-            <strong>✂️ Manual tools:</strong> Skiving knives, edge cutters, burnishing tools, stamping dies
+            <strong> Manual tools:</strong> Skiving knives, edge cutters, burnishing tools, stamping dies
           </p>
 
           <h2 className="font-playfair text-2xl font-bold text-charcoal mt-12 mb-6">
