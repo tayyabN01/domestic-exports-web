@@ -57,10 +57,10 @@ const Contact = () => {
       <section className="py-20 bg-cream leather-texture">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="font-playfair text-5xl font-bold text-charcoal mb-6 animate-fade-in">
-            Get in Touch
+            Get in Touch now!
           </h1>
           <p className="text-xl text-gray-600 leading-relaxed animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            Ready to start your leather goods project? We're here to help bring your vision to life.
+            We are here to help bring your vision to life.
           </p>
         </div>
       </section>
@@ -286,16 +286,8 @@ const Contact = () => {
                 </h3>
                 <div className="space-y-2 text-gray-600">
                   <div className="flex justify-between">
-                    <span>Monday - Friday</span>
-                    <span>9:00 AM - 6:00 PM PKT</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Saturday</span>
-                    <span>9:00 AM - 2:00 PM PKT</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Sunday</span>
-                    <span>Closed</span>
+                    <span>Monday - Sunday</span>
+                    <span>24/7</span>
                   </div>
                 </div>
               </div>

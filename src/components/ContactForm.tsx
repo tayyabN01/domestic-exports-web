@@ -49,13 +49,10 @@ const ContactForm = () => {
   return (
     <section id="contact-form" className="py-20 bg-tan">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
+        <div className="text-center mb-16">
           <h2 className="font-playfair text-4xl font-bold text-white mb-6">
             Contact for Pricing
           </h2>
-          <p className="text-xl text-tan-100">
-            Get a customized quote for your leather goods requirements
-          </p>
         </div>
 
         <div className="bg-white rounded-2xl shadow-2xl p-8">
