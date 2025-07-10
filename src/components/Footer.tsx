@@ -111,9 +111,11 @@ const Footer = () => {
         {/* Bottom Footer */}
         <div className="border-t border-tan-200 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="font-playfair font-bold text-2xl text-charcoal mb-4 md:mb-0">
-              DOMESTIC EXPORTS
-            </div>
+            <img 
+              src="/lovable-uploads/f5ddb280-5940-4f8f-8b72-18f306ae59ef.png" 
+              alt="Domestic Exports Logo" 
+              className="h-12 w-auto mb-4 md:mb-0"
+            />
             <p className="text-gray-600 text-center md:text-right">
               © 2025 Domestic Exports. All rights reserved.
               <br />

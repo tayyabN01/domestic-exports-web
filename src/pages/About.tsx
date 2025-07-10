@@ -11,10 +11,10 @@ const About = () => {
       <section className="py-20 bg-cream leather-texture">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="font-playfair text-5xl font-bold text-charcoal mb-6 animate-fade-in">
-            Our Story
+            About Us
           </h1>
           <p className="text-xl text-gray-600 leading-relaxed animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            Born in the heart of Pakistan's leather capital, Domestic Exports represents generations of craftsmanship and innovation in leather goods manufacturing.
+            Founded in the legendary city of Sialkot, Pakistan — globally renowned for its leather craftsmanship — Domestic Exports was born from a generational love for leather.
           </p>
         </div>
       </section>
@@ -24,18 +24,12 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
-              <h2 className="font-playfair text-4xl font-bold text-charcoal mb-6">
-                Sialkot Heritage
-              </h2>
               <div className="space-y-6 text-gray-600 leading-relaxed">
                 <p>
-                  Founded in the legendary city of Sialkot, Pakistan - renowned worldwide for its leather craftsmanship - Domestic Exports carries forward a family legacy spanning over three decades. Our journey began with a simple vision: to create leather goods that marry traditional techniques with contemporary design.
+                  For as long as we can remember, leather has fascinated us — its texture, character, and the stories it carries. What started as a shared passion across generations became a mission: to create leather goods that honor traditional techniques while embracing modern design.
                 </p>
                 <p>
-                  Today, we stand as a trusted partner to brands worldwide, offering comprehensive OEM and private label services. From concept to completion, we handle every aspect of leather goods manufacturing with meticulous attention to detail.
-                </p>
-                <p>
-                  Our commitment to excellence has earned us partnerships with discerning brands across North America, Europe, and Asia, who trust us to bring their leather goods vision to life.
+                  Today, Domestic Exports partners with brands around the world, offering complete OEM and private label manufacturing services. From the first sketch to the final stitch, we work closely with our clients to ensure their ideas are not only realized, but truly understood. Because for us, it's never just about making products — it's about crafting something that lasts, together.
                 </p>
               </div>
             </div>

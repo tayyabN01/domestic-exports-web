@@ -17,18 +17,16 @@ const Hero = () => {
       />
       
       {/* Overlay */}
-      <div className="absolute inset-0 hero-overlay" />
+      <div className="absolute inset-0 bg-black/60" />
       
       {/* Content */}
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="font-playfair text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 animate-fade-in">
-          Crafted to Last.
-          <br />
-          <span className="text-tan-200">Designed to Impress.</span>
+        <h1 className="font-playfair text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 animate-fade-in text-white drop-shadow-lg">
+          Crafted to Last
         </h1>
         
-        <p className="text-xl sm:text-2xl mb-8 text-gray-200 animate-fade-in" style={{ animationDelay: '0.2s' }}>
-          Premium B2B leather goods manufacturer specializing in handcrafted excellence
+        <p className="text-xl sm:text-2xl mb-8 text-white drop-shadow-md animate-fade-in" style={{ animationDelay: '0.2s' }}>
+          Premium B2B leather products manufacturer offering tailored OEM services
         </p>
         
         <Button 

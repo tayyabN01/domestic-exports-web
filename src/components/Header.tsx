@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { Search, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -17,9 +17,11 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex-shrink-0">
-            <div className="font-playfair font-bold text-2xl text-charcoal">
-              DOMESTIC EXPORTS
-            </div>
+            <img 
+              src="/lovable-uploads/f5ddb280-5940-4f8f-8b72-18f306ae59ef.png" 
+              alt="Domestic Exports Logo" 
+              className="h-12 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
@@ -40,9 +42,6 @@ const Header = () => {
 
           {/* Right Side Actions */}
           <div className="flex items-center space-x-4">
-            <button className="p-2 text-charcoal hover:text-tan transition-colors duration-200">
-              <Search className="w-5 h-5" />
-            </button>
             
             <Button 
               className="hidden sm:inline-flex bg-tan hover:bg-tan-600 text-white px-6 py-2 rounded-full transition-all duration-200"

@@ -1,6 +1,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import FloatingWhatsApp from '@/components/FloatingWhatsApp';
+import LeatherAnalysisCharts from '@/components/LeatherAnalysisCharts';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, Calendar, Clock, User } from 'lucide-react';
@@ -97,6 +98,11 @@ const BlogPost = () => {
             <li>Great for linings, budget-friendly gloves</li>
           </ul>
 
+          {/* Leather Types Comparison Chart */}
+          <div className="my-12">
+            <LeatherAnalysisCharts />
+          </div>
+
           <h2 className="font-playfair text-2xl font-bold text-charcoal mt-12 mb-6">
             3. Leather Sources (By Animal Type)
           </h2>
@@ -165,6 +171,11 @@ const BlogPost = () => {
             <li>Bright colors, smooth finish</li>
             <li>Ideal for fashion products</li>
           </ul>
+
+          {/* Tanning Methods Comparison Chart */}
+          <div className="my-12">
+            <LeatherAnalysisCharts />
+          </div>
 
           <h2 className="font-playfair text-2xl font-bold text-charcoal mt-12 mb-6">
             5. Machinery & Tools in Leather Production
