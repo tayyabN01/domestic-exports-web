@@ -20,7 +20,7 @@ const Header = () => {
             <img 
               src="/lovable-uploads/f5ddb280-5940-4f8f-8b72-18f306ae59ef.png" 
               alt="Domestic Exports Logo" 
-              className="h-14 w-auto"
+              className="h-16 w-auto"
             />
           </Link>
 
