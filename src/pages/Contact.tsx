@@ -91,8 +91,8 @@ const Contact = () => {
               <form onSubmit={handleSubmit} className="space-y-6">
                 {/* Web3Forms Access Key */}
                 <input type="hidden" name="access_key" value="30e439d1-8c6a-440d-be3b-7ff1bf294f2b" />
-                <input type="hidden" name="subject" value="New Contact Page Inquiry - Leather Manufacturing" />
-                <input type="hidden" name="from_name" value="Leather Manufacturing Website" />
+                <input type="hidden" name="subject" value="New Contact Page Inquiry - Domestic Exports" />
+                <input type="hidden" name="from_name" value="Domestic Exports" />
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
