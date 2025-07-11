@@ -26,10 +26,10 @@ const Newsletter = () => {
     <section className="py-20 bg-tan">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="font-playfair text-4xl font-bold text-white mb-6">
-          Get Our Catalog & New Drops
+          Request Sample
         </h2>
         <p className="text-xl text-tan-100 mb-8">
-          Stay updated with our latest collections and exclusive B2B offers
+          Experience our quality up close.
         </p>
         
         <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">

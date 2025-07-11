@@ -11,7 +11,7 @@ const About = () => {
       <section className="py-20 bg-cream leather-texture">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="font-playfair text-5xl font-bold text-charcoal mb-6 animate-fade-in">
-            About Us
+            Who We Are?
           </h1>
           <p className="text-xl text-gray-600 leading-relaxed animate-fade-in" style={{ animationDelay: '0.2s' }}>
             Founded in the legendary city of Sialkot, Pakistan — globally renowned for its leather craftsmanship — Domestic Exports was born from a generational love for leather.
