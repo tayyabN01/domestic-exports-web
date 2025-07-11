@@ -7,7 +7,7 @@ import { toast } from 'sonner';
 const Newsletter = () => {
   const [email, setEmail] = useState('');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
     if (!email) {
@@ -15,11 +15,25 @@ const Newsletter = () => {
       return;
     }
     
-    // Here you would typically send the email to your backend
-    console.log('Newsletter signup:', email);
+    const formElement = e.target as HTMLFormElement;
+    const formDataToSend = new FormData(formElement);
     
-    toast.success('Thank you for subscribing! Check your email for our latest catalog.');
-    setEmail('');
+    try {
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formDataToSend
+      });
+
+      if (response.ok) {
+        toast.success('Thank you for subscribing! Check your email for our latest catalog.');
+        setEmail('');
+      } else {
+        throw new Error('Form submission failed');
+      }
+    } catch (error) {
+      console.error('Newsletter signup error:', error);
+      toast.error('Something went wrong. Please try again.');
+    }
   };
 
   return (
@@ -33,8 +47,13 @@ const Newsletter = () => {
         </p>
         
         <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
+          <input type="hidden" name="access_key" value="30e439d1-8c6a-440d-be3b-7ff1bf294f2b" />
+          <input type="hidden" name="subject" value="Newsletter Subscription - Leather Manufacturing" />
+          <input type="hidden" name="from_name" value="Leather Manufacturing Website" />
+          
           <Input
             type="email"
+            name="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Enter your email address"

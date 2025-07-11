@@ -82,7 +82,7 @@ export default {
 			},
 			fontFamily: {
 				playfair: ['Playfair Display', 'serif'],
-				inter: ['Inter', 'sans-serif'],
+				sans: ['Nunito Sans', 'system-ui', 'sans-serif'],
 			},
 			fontSize: {
 				'display': ['36px', { lineHeight: '1.5' }],
