@@ -26,24 +26,37 @@ const ContactForm = () => {
     setFormData(prev => ({ ...prev, requestCall: checked }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
-    // Here you would typically send the data to your backend
-    console.log('Form submitted:', formData);
+    const formElement = e.target as HTMLFormElement;
+    const formDataToSend = new FormData(formElement);
     
-    toast.success('Thank you for your inquiry! We\'ll get back to you within 24 hours.');
-    
-    // Reset form
-    setFormData({
-      productName: '',
-      name: '',
-      email: '',
-      company: '',
-      quantity: '',
-      message: '',
-      requestCall: false
-    });
+    try {
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formDataToSend
+      });
+
+      if (response.ok) {
+        toast.success('Thank you for your inquiry! We\'ll get back to you within 24 hours.');
+        // Reset form
+        setFormData({
+          productName: '',
+          name: '',
+          email: '',
+          company: '',
+          quantity: '',
+          message: '',
+          requestCall: false
+        });
+      } else {
+        throw new Error('Form submission failed');
+      }
+    } catch (error) {
+      console.error('Form submission error:', error);
+      toast.error('Something went wrong. Please try again or contact us directly.');
+    }
   };
 
   return (
@@ -57,6 +70,11 @@ const ContactForm = () => {
 
         <div className="bg-white rounded-2xl shadow-2xl p-8">
           <form onSubmit={handleSubmit} className="space-y-6">
+            {/* Web3Forms Access Key */}
+            <input type="hidden" name="access_key" value="30e439d1-8c6a-440d-be3b-7ff1bf294f2b" />
+            <input type="hidden" name="subject" value="New Contact Form Inquiry - Leather Manufacturing" />
+            <input type="hidden" name="from_name" value="Leather Manufacturing Website" />
+            
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label className="block text-sm font-medium text-charcoal mb-2">
@@ -149,6 +167,11 @@ const ContactForm = () => {
                 checked={formData.requestCall}
                 onCheckedChange={handleCheckboxChange}
                 className="border-tan data-[state=checked]:bg-tan"
+              />
+              <input 
+                type="hidden" 
+                name="requestCall" 
+                value={formData.requestCall ? 'Yes' : 'No'} 
               />
               <label 
                 htmlFor="requestCall" 
