@@ -64,7 +64,7 @@ const Newsletter = () => {
             type="submit"
             className="bg-charcoal hover:bg-gray-800 text-white px-8 py-2 whitespace-nowrap transition-all duration-300 hover:scale-105"
           >
-            Request
+            Submit
           </Button>
         </form>
       </div>
