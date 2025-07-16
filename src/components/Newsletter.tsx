@@ -25,7 +25,7 @@ const Newsletter = () => {
       });
 
       if (response.ok) {
-        toast.success('Thank you for subscribing! Check your email for our latest catalog.');
+        toast.success('Thank you for requesting our sample! We will reach out to you within a few hours.');
         setEmail('');
       } else {
         throw new Error('Form submission failed');
