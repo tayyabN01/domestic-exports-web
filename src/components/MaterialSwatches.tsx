@@ -14,55 +14,55 @@ const MaterialSwatches = () => {
       name: 'Full-Grain Leather',
       description: 'Natural surface, visible grain, ages with patina',
       tags: ['Top-grade', 'Durable', 'Premium feel'],
-      image: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/Full%20Grain.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL0Z1bGwgR3JhaW4ucG5nIiwiaWF0IjoxNzUyMDA2NzkxLCJleHAiOjE3ODM1NDI3OTF9.hbLN_gbFrcFxsOY13cNfFosssLjVM_Oxzvy7jzWzTOI'
+      image: '/lovable-uploads/f5ddb280-5940-4f8f-8b72-18f306ae59ef.png'
     },
     {
       name: 'Top-Grain Leather',
       description: 'Sanded surface, smooth, more uniform texture',
       tags: ['Refined look', 'High-end appeal'],
-      image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?auto=format&fit=crop&w=400&q=80'
+      image: '/lovable-uploads/f5ddb280-5940-4f8f-8b72-18f306ae59ef.png'
     },
     {
       name: 'Pull-Up Leather',
       description: 'Waxy finish, color shifts when stretched',
       tags: ['Vintage charm', 'Develops character'],
-      image: 'https://images.unsplash.com/photo-1586105251161-d12f4a5d1e2e?auto=format&fit=crop&w=400&q=80'
+      image: '/lovable-uploads/f5ddb280-5940-4f8f-8b72-18f306ae59ef.png'
     },
     {
       name: 'Nubuck Leather',
       description: 'Sanded grain surface, velvety touch',
       tags: ['Soft', 'Elegant', 'Fashion-forward'],
-      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=400&q=80'
+      image: '/lovable-uploads/f5ddb280-5940-4f8f-8b72-18f306ae59ef.png'
     },
     {
       name: 'Suede (Split Leather)',
       description: 'Inner hide, fuzzy and flexible',
       tags: ['Great for linings', 'Soft accessories'],
-      image: 'https://images.unsplash.com/photo-1551698618-1dfe5d97d256?auto=format&fit=crop&w=400&q=80'
+      image: '/lovable-uploads/f5ddb280-5940-4f8f-8b72-18f306ae59ef.png'
     },
     {
       name: 'Vegetable-Tanned Leather',
       description: 'Firm, natural tan tone, darkens over time',
       tags: ['Eco-friendly', 'Traditional tanning'],
-      image: 'https://images.unsplash.com/photo-1544966503-7cc5ac882d5a?auto=format&fit=crop&w=400&q=80'
+      image: '/lovable-uploads/f5ddb280-5940-4f8f-8b72-18f306ae59ef.png'
     },
     {
       name: 'Chrome-Tanned Leather',
       description: 'Supple, available in bright colors',
       tags: ['Soft touch', 'Fashion-friendly'],
-      image: 'https://images.unsplash.com/photo-1590736969955-71cc94901144?auto=format&fit=crop&w=400&q=80'
+      image: '/lovable-uploads/f5ddb280-5940-4f8f-8b72-18f306ae59ef.png'
     },
     {
       name: 'Embossed Leather',
       description: 'Patterned surface with pressed texture',
       tags: ['Stylish', 'Bold texture options'],
-      image: 'https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=400&q=80'
+      image: '/lovable-uploads/f5ddb280-5940-4f8f-8b72-18f306ae59ef.png'
     },
     {
       name: 'Patent Leather',
       description: 'Glossy, mirror-like surface',
       tags: ['Dressy', 'Sleek accessories'],
-      image: 'https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=400&q=80'
+      image: '/lovable-uploads/f5ddb280-5940-4f8f-8b72-18f306ae59ef.png'
     }
   ];
 
