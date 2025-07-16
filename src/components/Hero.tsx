@@ -12,7 +12,7 @@ const Hero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('/lovable-uploads/f5ddb280-5940-4f8f-8b72-18f306ae59ef.png')"
+          backgroundImage: "url('https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/page1_img1.jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85MWM5NGE5OS1jMTU1LTRhYWEtYTJmNy00MzY4ZjA5ODVmYjciLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL3BhZ2UxX2ltZzEuanBlZyIsImlhdCI6MTc1MjY5MjIxNywiZXhwIjoxNzg0MjI4MjE3fQ.SUBxwoz2uSC-0lIFS3msES_6SXlUXg1JWvq-PhO5ubA')"
         }}
       />
       
