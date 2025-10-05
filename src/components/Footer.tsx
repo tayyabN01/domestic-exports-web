@@ -94,14 +94,14 @@ const Footer = () => {
                 </a>
               </p>
               <div className="flex space-x-4 mt-4">
-                <a href="#" className="text-gray-600 hover:text-tan transition-colors duration-200">
+                <a href="https://www.instagram.com/domesticexports/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-tan transition-colors duration-200">
                   Instagram
                 </a>
-                <a href="#" className="text-gray-600 hover:text-tan transition-colors duration-200">
+                <a href="https://www.facebook.com/profile.php?id=61560731382191" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-tan transition-colors duration-200">
                   Facebook
                 </a>
-                <a href="#" className="text-gray-600 hover:text-tan transition-colors duration-200">
-                  Pinterest
+                <a href="https://www.linkedin.com/company/domestic-exports/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-tan transition-colors duration-200">
+                  LinkedIn
                 </a>
               </div>
             </div>
