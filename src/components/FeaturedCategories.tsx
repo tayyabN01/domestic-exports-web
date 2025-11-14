@@ -6,7 +6,7 @@ const FeaturedCategories = () => {
   const categories = [
     {
       title: 'Apparel',
-      image: 'https://drive.google.com/file/d/1yPubiNWNzwCLkRq4HpITOdXBw_-zz-yR/view?usp=sharing',
+      image: 'https://drive.google.com/file/d/1Qw5CpA21nWOA7immjjpGFn7FclM1qu-G/view?usp=sharing',
       teaser: 'Explore premium leather jackets, coats, vests, and pants.',
       expanded: 'Explore premium leather jackets, coats, vests, pants, skirts, and dresses for men and women. Handcrafted using LWG-certified sheepskin and cowhide with full OEM customization options.',
       catalogUrl: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/D.E%20-%20APPAREL%20M&F%20CATALOGUE%20_25.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85MWM5NGE5OS1jMTU1LTRhYWEtYTJmNy00MzY4ZjA5ODVmYjciLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL0QuRSAtIEFQUEFSRUwgTSZGIENBVEFMT0dVRSBfMjUucGRmIiwiaWF0IjoxNzUyNjkxODY0LCJleHAiOjE3ODQyMjc4NjR9.kHyu6xWxlhnz9licM0zLmd9bSt5JFoFs4CM6wEEtTvc'
