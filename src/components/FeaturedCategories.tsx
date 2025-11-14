@@ -20,7 +20,7 @@ const FeaturedCategories = () => {
     },
     {
       title: 'Wallets',
-      image: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/D.E%20-%20WALLETS%20CATALOGUE%20_25.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85MWM5NGE5OS1jMTU1LTRhYWEtYTJmNy00MzY4ZjA5ODVmYjciLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL0QuRSAtIFdBTExFVFMgQ0FUQUxPR1VFIF8yNS5wZGYiLCJpYXQiOjE3NjMxNDk5MzEsImV4cCI6MTc5NDY4NTkzMX0.spHP8BLctbIcZ9qvViin7AdZ1r8VGYUG-oeSJr6AxkQ',
+      image: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/wallets.jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85MWM5NGE5OS1jMTU1LTRhYWEtYTJmNy00MzY4ZjA5ODVmYjciLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL3dhbGxldHMuanBlZyIsImlhdCI6MTc2MzE1MDE1OSwiZXhwIjoxNzk0Njg2MTU5fQ.ojFzGmX60O5BWrF1JiYa0nXvMb3JqrsPSLVmITG93hc',
       teaser: 'Refined leather wallets for both men and women.',
       expanded: 'Elegant men\'s and women\'s leather wallets — bi-folds, tri-folds, and card holders. Premium materials and full branding options for private label clients.',
       catalogUrl: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/D.E%20-%20WALLETS%20CATALOGUE%20_25.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85MWM5NGE5OS1jMTU1LTRhYWEtYTJmNy00MzY4ZjA5ODVmYjciLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL0QuRSAtIFdBTExFVFMgQ0FUQUxPR1VFIF8yNS5wZGYiLCJpYXQiOjE3NjMxNDk5NTEsImV4cCI6MTc5NDY4NTk1MX0.ShVey-4_UC4zbLl3AWqnGG7Se_kYS2YUrZkLkuQcgD8'
@@ -41,7 +41,7 @@ const FeaturedCategories = () => {
     },
     {
       title: 'Belts',
-      image: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/D.E%20-%20BELTS%20CATALOGUE%20_25.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85MWM5NGE5OS1jMTU1LTRhYWEtYTJmNy00MzY4ZjA5ODVmYjciLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL0QuRSAtIEJFTFRTIENBVEFMT0dVRSBfMjUucGRmIiwiaWF0IjoxNzYzMTUwMDA3LCJleHAiOjE3OTQ2ODYwMDd9.gRJ5lypryTKQeAVakXBPqvY1GfyFiRtv31zPNHLq2u8',
+      image: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/belts.jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85MWM5NGE5OS1jMTU1LTRhYWEtYTJmNy00MzY4ZjA5ODVmYjciLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL2JlbHRzLmpwZWciLCJpYXQiOjE3NjMxNTAxMTYsImV4cCI6MTc5NDY4NjExNn0.Tg5aFJoE38a74QlBbZHelJ5XkhGthUipvLUcDJsxf60',
       teaser: 'Versatile leather belts crafted for every wardrobe.',
       expanded: 'Classic and modern leather belts for men and women. Made from full-grain hides with custom buckles, stitching, and branding.',
       catalogUrl: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/D.E%20-%20BELTS%20CATALOGUE%20_25.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85MWM5NGE5OS1jMTU1LTRhYWEtYTJmNy00MzY4ZjA5ODVmYjciLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL0QuRSAtIEJFTFRTIENBVEFMT0dVRSBfMjUucGRmIiwiaWF0IjoxNzYzMTUwMDI3LCJleHAiOjE3OTQ2ODYwMjd9.Jw9EVI4fEuzIcPy7uuK_TYDCmUlJzu_U3JOY5x9UZLA'
