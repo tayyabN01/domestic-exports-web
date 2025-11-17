@@ -35,7 +35,7 @@ const About = () => {
             </div>
             <div className="animate-fade-in" style={{ animationDelay: '0.3s' }}>
               <img 
-                src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80" 
+                src="https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/About%20us.jpg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85MWM5NGE5OS1jMTU1LTRhYWEtYTJmNy00MzY4ZjA5ODVmYjciLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL0Fib3V0IHVzLmpwZyIsImlhdCI6MTc2MzQwNjI0NiwiZXhwIjoxNzk0OTQyMjQ2fQ.JY7FM_X98_ITU4e8hjUI-4QEfPhbmhtBG19yMKbj17Y" 
                 alt="Sialkot leather workshop"
                 className="w-full h-96 object-cover rounded-lg shadow-xl"
               />
@@ -62,25 +62,25 @@ const About = () => {
                 title: 'Selection',
                 description: 'Hand-picking premium hides from LWG-certified tanneries',
                 icon: '🎯',
-                image: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/Selection.jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL1NlbGVjdGlvbi5qcGVnIiwiaWF0IjoxNzUyMDAwODU4LCJleHAiOjE3ODM1MzY4NTh9.wKGkVy4bUndSuib5zwi2X9FQrW5xW0wIH13j6waNO0M'
+                image: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/Selection.jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85MWM5NGE5OS1jMTU1LTRhYWEtYTJmNy00MzY4ZjA5ODVmYjciLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL1NlbGVjdGlvbi5qcGVnIiwiaWF0IjoxNzYzNDA2Mjg1LCJleHAiOjE3OTQ5NDIyODV9.Rn_O3VZd0_so34FaPSvuoeMlydYKE68SzZiS4D0unWw'
               },
               {
                 title: 'Crafting',
                 description: 'Master artisans shape each piece with precision tools',
                 icon: '✂️',
-                image: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/Crafting%20(1).jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL0NyYWZ0aW5nICgxKS5qcGVnIiwiaWF0IjoxNzUyMDAxMDk5LCJleHAiOjE3ODM1MzcwOTl9.gWJNvHp4NK6BnWyD6tk_NLw763Dt02rGepM5oZKJ8qA'
+                image: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/Crafting%20(1).jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85MWM5NGE5OS1jMTU1LTRhYWEtYTJmNy00MzY4ZjA5ODVmYjciLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL0NyYWZ0aW5nICgxKS5qcGVnIiwiaWF0IjoxNzYzNDA2MzQzLCJleHAiOjE3OTQ5NDIzNDN9.H2WbieAeqJLKnW74wtu70A-FMcEp1E9iivXrkQ_NvLs'
               },
               {
                 title: 'Stitching',
                 description: 'Reinforced seams using industrial-grade threads',
                 icon: '🧵',
-                image: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/Crafting.jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL0NyYWZ0aW5nLmpwZWciLCJpYXQiOjE3NTIwMDExNDgsImV4cCI6MTc4MzUzNzE0OH0.7X5_zGuDUJ4IrpuNUR26kC5VdYz4J1l9dPMHAOQEqRs'
+                image: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/Crafting.jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85MWM5NGE5OS1jMTU1LTRhYWEtYTJmNy00MzY4ZjA5ODVmYjciLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL0NyYWZ0aW5nLmpwZWciLCJpYXQiOjE3NjM0MDYzNzgsImV4cCI6MTc5NDk0MjM3OH0.QKM5JzpROjG7bgeKpDfS7fx05Pct1R6QESpI-Zvi9GQ'
               },
               {
                 title: 'Quality Control',
                 description: 'Rigorous inspection ensures perfection in every detail',
                 icon: '✅',
-                image: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/Quality.jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV84ZjMyM2MyMC00MGU0LTQ5NWYtYjQ4Yi1kMjA5ODBlNjhiYzQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL1F1YWxpdHkuanBlZyIsImlhdCI6MTc1MjAwMzQ2OSwiZXhwIjoxNzgzNTM5NDY5fQ.SoMdoboE61cw2PeVA6ScrgaNMQfSZ88Zgx-GBmCHYAk'
+                image: 'https://gvhhmrgzfkbcwgplejpa.supabase.co/storage/v1/object/sign/website/Quality.jpeg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85MWM5NGE5OS1jMTU1LTRhYWEtYTJmNy00MzY4ZjA5ODVmYjciLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ3ZWJzaXRlL1F1YWxpdHkuanBlZyIsImlhdCI6MTc2MzQwNjM5MSwiZXhwIjoxNzk0OTQyMzkxfQ.0-9tl6nB_JH8z48FyemFLrA0WKpOM71KiiQocdZXXGo'
               }
             ].map((step, index) => (
               <div 
