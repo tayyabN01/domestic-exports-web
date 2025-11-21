@@ -285,19 +285,44 @@ const Contact = () => {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-tan rounded-full flex items-center justify-center flex-shrink-0">
-                    <MapPin className="w-6 h-6 text-white" />
+                  <div className="flex flex-col items-center flex-shrink-0">
+                    <div className="w-12 h-12 bg-tan rounded-full flex items-center justify-center">
+                      <MapPin className="w-6 h-6 text-white" />
+                    </div>
+                    <div className="w-0.5 h-16 bg-tan/30 my-2"></div>
+                    <div className="w-8 h-8 bg-tan/80 rounded-full flex items-center justify-center">
+                      <MapPin className="w-4 h-4 text-white" />
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="font-playfair text-xl font-bold text-charcoal mb-2">
-                      Location
+                  <div className="flex-1">
+                    <h3 className="font-playfair text-xl font-bold text-charcoal mb-4">
+                      Our Locations
                     </h3>
-                    <p className="text-gray-600">
-                      Sialkot, Punjab, Pakistan
-                    </p>
-                    <p className="text-sm text-gray-500 mt-1">
-                      Global leather manufacturing hub
-                    </p>
+                    <div className="space-y-6">
+                      <div>
+                        <div className="flex items-center gap-2 mb-1">
+                          <span className="text-xs font-semibold text-tan">LOCATION 1</span>
+                        </div>
+                        <p className="text-gray-600 font-medium">
+                          Sialkot, Punjab, Pakistan
+                        </p>
+                        <p className="text-sm text-gray-500 mt-1">
+                          Global leather manufacturing hub
+                        </p>
+                      </div>
+                      
+                      <div>
+                        <div className="flex items-center gap-2 mb-1">
+                          <span className="text-xs font-semibold text-tan">LOCATION 2</span>
+                        </div>
+                        <p className="text-gray-600 font-medium">
+                          5 Queen Victoria Rd, Coventry, CV1 3JS, England
+                        </p>
+                        <p className="text-sm text-gray-500 mt-1">
+                          UK office and distribution center
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
